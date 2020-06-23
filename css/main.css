@@ -1,0 +1,385 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Libre Baskerville'!important;
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+input,
+button:hover,
+button:active,
+input:focus,
+input:active {
+  text-decoration: none !important;
+  outline: none;
+}
+
+ul,
+div,
+p,
+form,
+input {
+  box-sizing: border-box;
+}
+
+ul, h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  width: 100%;
+  content: '';
+  display: table;
+}
+
+.container {
+  width: 1024px; 
+  margin: 0 auto;
+}
+
+#navbarResponsive {
+  position: relative;
+}
+
+.navbar-brad {
+  font-family: 'Mrs Saint Delafield';
+  font-size: 60px;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.navbar-brad:hover {
+  text-decoration: none;
+  color: #dc3545;
+}
+
+.navbar-nav li {
+  padding-right: 35px;
+}
+
+#main {
+  background: url(../img/back.jpg) no-repeat center -20px / cover;
+  color: #dc3545;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 180px;
+  font-weight: 700 !important;
+}
+
+.buttons-block {
+  text-align: center;
+}
+
+.btn-outline-danger {
+  color: #fff !important;
+  background-color: #dc3545 !important;
+}
+
+.btn-outline-light {
+  color: #212529 !important;
+  background-color: #f8f9fa !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #dc3545 !important;
+}
+
+.nav-link:hover {
+  color: #3f3f3f !important;
+  border-bottom: 1px solid #212529;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  }
+}
+
+h2 {
+  margin-top: 35px !important;
+}
+
+.news {
+  margin-top: 15px;
+}
+
+.new-text {
+  margin-top: 20px;
+  width: 330px;
+}
+
+#doc {
+  margin-bottom: 40px;
+}
+
+.img-block {
+  margin-top: 25px;
+}
+
+.about-title {
+  font-size: 20px;
+  color: #000;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.about-text {
+  font-size: 12px;
+  color: #000;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+
+.about-text li {
+  padding-top: 5px;
+}
+
+.logo {
+  font-family: 'Mrs Saint Delafield';
+  font-size: 80px;
+  float: right;
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+label {
+  display: block !important;
+}
+
+.reg-input {
+  margin-bottom: 15px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.reg-btn {
+  display: block !important;
+  margin-bottom: 35px;
+  width: 90px !important;
+}
+
+.reg-link {
+  color: #dc3545;
+  font-size: 19px;
+  margin-left: 70px;
+  text-transform: uppercase;
+}
+
+.registr-form {
+  display: flex;
+  display: none;
+}
+
+.form-item {
+  float: left;
+}
+
+.form-item:last-child {
+  margin-left: 36%;
+}
+
+.registration-out {
+  display: none;
+}
+
+.registration {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.is-open {
+  display: flex !important;
+}
+
+.reg-link:hover {
+  color: #dc3545;
+}
+
+.user-name {
+  font-size: 18px;
+  color: #dc3545 !important;
+  font-weight: bold;
+}
+
+#user-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  top: 39px;
+  width: 175px;
+  border: 1px solid red;
+  padding: 7px;
+  background-color: #F8F9FA;
+  display: none;
+}
+
+.user-link {
+  color: #000;
+  text-decoration: none;
+  padding-top: 7px;
+  border: none;
+  background-color: inherit;
+}
+
+.user-link:hover {
+  color: #dc3545;
+}
+
+.btn-out {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.width {
+  width: 100px !important;
+}
+
+#creat-poll {
+  display: none;
+}
+
+.creat-choose {
+  display: inline;
+  margin-right: 35px;
+}
+
+.top {
+  margin-top: 20px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.left {
+  margin-left: -129px;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  resize: none !important;
+}
+
+#voting {
+  display: none;
+}
+
+.vote {
+  margin: 45px 0px;
+  padding: 50px 0;
+}
+
+.vote-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.vote-img img {
+  width: 280px;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.vote-text {
+  margin-top: 25px;
+  width: 300px;
+  margin-left: 40px;
+}
+
+.center {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.margin-top {
+  margin-top: 90px !important;
+}
+
+.block {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  left: 0px;
+  top: 0px;
+  color: #fff;
+  transition: all ease 1s;
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.burger span {
+  width: 30px;
+  height: 5px;
+  display: block;
+  background-color: #1b1b1b;
+  border: 2px solid #000;
+  transition: all 0.3s;
+}
+
+.burger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 14px);
+}
+
+.burger.active span:nth-child(2) {
+  transform: rotate(45deg) translate(-1px, 5px);
+}
+
+.burger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -9px);
+}
+
+#election {
+  display: none;
+}
+
+.election {
+  display: flex;
+  align-items: center;
+}
+
+
+
